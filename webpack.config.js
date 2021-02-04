@@ -1,10 +1,11 @@
-
+/* eslint @typescript-eslint/no-var-requires: "off" */
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   output: {
+    // eslint-disable-next-line no-undef
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
